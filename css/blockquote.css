@@ -1,0 +1,38 @@
+.blockquote {
+    width: 500px;
+    height: 325px;
+    margin: 0;
+}
+
+.blockquote__paragraph {
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin: 0;
+    width: 500px;
+    height: 202px;
+    margin-bottom: 39px;
+    white-space: pre-wrap;
+}
+
+.blockquote__quotes {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #6C0287;
+}
+
+.blockquote__cite {
+    font-size: 20px;
+    line-height: 28px;
+    width: 279.28px;
+    height: 84px;
+    padding-left: 225.72px;
+    margin: 0;
+    background-image: url('../img2/blockquote_image/ava.png');
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position: 116px 0;
+    white-space: pre-wrap;
+}

@@ -1,0 +1,22 @@
+.header__title {
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 100%;
+    letter-spacing: -0.1em
+}
+
+.header {
+    height: 823px;
+    background-image: url("../img2/header_image/vr_boy2.png");
+    background-repeat: no-repeat;
+    background-position: 505px 61px;
+    background-size: auto 762px;
+    padding-bottom: 50px;
+}
+
+.header__paragraph {
+    font-size: 28px;
+    line-height: 50px;
+    margin: 0;
+    padding-left: 100px;
+}

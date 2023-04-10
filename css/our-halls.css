@@ -1,0 +1,40 @@
+.our-halls {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.our-halls__title {
+    margin-bottom: 40px;
+}
+
+.our-halls__item {
+    background-size: cover;
+    list-style: none;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 580px;
+    height: 349px;
+}
+
+.our-halls__item:not(:nth-child(2n)) {
+    margin-right: 15px;
+}
+
+.our-halls__item-vibes80 {
+    background-image: url("../img2/our-halls_image/80vibes.jpg");
+}
+
+.our-halls__item-starwars {
+    background-image: url("../img2/our-halls_image/star_wars.jpg");
+}
+
+.our-halls__item-wilswest {
+    background-image: url("../img2/our-halls_image/wild_west.jpg");
+    margin-bottom: 0;
+}
+
+.our-halls__item-neonstyle {
+    background-image: url("../img2/our-halls_image/neon.jpg");
+    margin-bottom: 0;
+}

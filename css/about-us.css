@@ -1,0 +1,47 @@
+.about-us {
+    padding: 50px 0 50px 0;
+}
+
+.about-us__title {
+    margin-bottom: 50px;
+}
+
+.about-us__paragraph {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 22px;
+    margin-top: 0;padding: 0;
+    white-space: pre-wrap;
+}
+
+.about-us__paragraph:last-child {
+    margin-bottom: 0;
+}
+
+.about-us__image {
+    width: 600px;
+    height: 596px;
+    background-image: url("../img2/about-us_image/photos.png");
+    margin-right: 75px;
+}
+
+.about-us__container-content {
+    display: inline-block;
+}
+
+.about-us__info {
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+.about-us__info-text {
+    width: 500px;
+    height: 222px;
+    margin-bottom: 48px;
+}
+
+.about-us__container {
+    width: 1180px;
+}
