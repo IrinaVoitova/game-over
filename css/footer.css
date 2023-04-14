@@ -1,5 +1,5 @@
-.adress {
-    max-width: 1180px;
+.footer {
+    max-width: 1440px;
     margin: 0 auto;
     font-weight: 700;
     font-size: 24px;
@@ -8,12 +8,12 @@
     background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
 }
 
-.adress__title {
+.footer__title {
     margin-bottom: 40px;
 }
 
 .adress__paragraph {
-    background-image: url("../img2/adress_image/location.svg");
+    background-image: url("../img2/footer_image/location.svg");
     margin: 0 0 38px 0;
     white-space: pre-wrap;
 }
@@ -28,11 +28,11 @@
 
 .adress__contact-tel {
     margin: 0 0 11px 0;
-    background-image: url("../img2/adress_image/bx_bxs-phone-call.svg");
+    background-image: url("../img2/footer_image/bx_bxs-phone-call.svg");
 }
 
 .adress__contact-mail {
-    background-image: url("../img2/adress_image/envelope.svg");
+    background-image: url("../img2/footer_image/envelope.svg");
 }
 
 .adress__icon {
@@ -56,10 +56,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 156px;
+    margin-bottom: 156px;
 }
 
-.footer {
+.copyright {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -67,6 +67,26 @@
     justify-content: space-between;
 }
 
-.footer__developers {
+.copyright__developers {
     text-align: end;
+}
+
+.social__item {
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 26px;
+}
+
+.social__link {
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.social__item:last-child {
+    margin-right: 0;
 }

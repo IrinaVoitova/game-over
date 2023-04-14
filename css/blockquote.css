@@ -24,9 +24,10 @@
 }
 
 .blockquote__cite {
+    display: block;
     font-size: 20px;
     line-height: 28px;
-    width: 279.28px;
+    width: 505px;
     height: 84px;
     padding-left: 225.72px;
     margin: 0;

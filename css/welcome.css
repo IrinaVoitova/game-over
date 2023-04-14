@@ -1,0 +1,101 @@
+.welcome {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 30px;
+    position: relative;
+    height: 823px;
+    margin-bottom: 100px;
+}
+
+.welcome__title {
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 100%;
+    letter-spacing: -0.1em;    
+}
+
+.welcome__image_boy {
+    position: absolute;
+    width: 675px;
+    height: 762px;
+    background-image: url("../img2/welcome_image/vr_boy2.png");
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: 535px;
+}
+
+.welcome__paragraph {
+    font-size: 28px;
+    line-height: 50px;
+    margin: 0;
+    padding-left: 100px;
+    margin-bottom: 30px;
+}
+
+.welcome__info {
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+    margin-bottom: 150px;
+}
+
+.welcome__info_block-1 {
+    width: 193px;
+    height: 209px;
+    text-align: center;
+}
+
+.welcome__paragraph_purple-1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 141px;
+    color: #CD06FF;
+}
+
+.welcome__paragraph_info {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+.welcome__info_block-2 {
+    width: 166px;
+    height: 174px;
+    text-align: center;
+}
+
+.welcome__paragraph_purple-2 {
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 106px;
+    font-variant: all-small-caps;
+    color: #CD06FF;
+}
+
+.welcome__button {
+    background-color: #6C0287;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    border: none;
+    padding: 25px 69px;
+}
+
+.welcome__arrow {
+    position: absolute;
+    height: 97px;
+    width: 97px;
+    left: 569px;
+    bottom: 90px;
+}
+
+.welcome__arrow-circle {
+    position: absolute;
+}
+
+.welcome__arrow-v {
+    position: relative;
+    left: 34.42px;
+    top: 29.76px;
+}
