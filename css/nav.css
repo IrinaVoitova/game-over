@@ -1,0 +1,40 @@
+.nav {
+    max-width: 1180px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.nav__logo {
+    width: 120px;
+    height: 66px;
+}
+
+.nav__list {
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+
+
+.nav__item {
+    display: inline-flex;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.nav__button {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    border: 3px solid #CD06FF;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 12px 32px 13px 32px;
+    height: 55px;
+    box-sizing: border-box;
+}

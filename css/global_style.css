@@ -53,7 +53,22 @@ p {
 }
 
 .container {
-    max-width: 1180px;
+    /* max-width: 1180px; */
+    width: 1440px;
+    /* padding: 0 30px; */
+    /* margin: 30px auto 0 auto; */
+    margin: 30px auto 0 auto;
     padding: 0 30px;
-    margin: 146px auto;
+}
+
+.button {
+    font-family: 'Arial';
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.main {
+    padding: 50px 0;
 }

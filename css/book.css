@@ -1,7 +1,231 @@
 .book {
-    padding: 50px 0 50px 0;
+    padding: 80px 130px 80px 130px;
+    width: 1180px;
+    background-color: #440F51;
+    margin: 0 auto;
 }
 
 .book__title {
     margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
 }
+
+.book__legend {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 auto 40px auto;
+}
+
+.book__fieldset {
+    border: none;
+}
+
+.book__entertainment {
+    padding: 0;
+    margin: 0px 0px 60px 0px;
+}
+
+.book__console,
+.book__games,
+.book__extra {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.book__halls-input {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 250px;
+    height: 55px;
+    padding: 7px 15px 8px 15px;
+    box-sizing: border-box;
+}
+
+.book__halls {
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+.book__halls_option {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.book__legend_entertainment {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+.book__option {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.book__fieldset-entertainment {
+    width: 1080px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    padding-left: 100px;
+}
+
+.book__console-input {
+    width: 27px;
+    height: 27px;
+    margin-right: 12px;
+}
+
+.book__console-label,
+.book__games-label,
+.book__extra-label {
+    display: flex;
+    align-items: center;
+}
+
+.book__console-label {
+    width: 280px;
+}
+
+.book__games-label,
+.book__extra-label {
+    width: 300px;
+}
+
+.book__games-input,
+.book__extra-input {
+    width: 25px;
+    height: 25px;
+    margin-right: 12px;
+}
+
+.book__information {
+    padding: 0 0 0 0;
+    margin: 0 0 40px 0;
+}
+
+.book__information-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 162px;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+.book__information-input {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.book__information-label {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+
+::-webkit-input-placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #211E1E;
+}
+
+.book__input-date,
+.book__input-time {
+    width: 134px;
+    height: 52px;
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.book__input-persons {
+    width: 300px;
+    height: 52px;
+}
+
+.book__input-date,
+.book__input-time,
+.book__input-persons {
+    padding: 12px 0 12px 20px;
+    box-sizing: border-box;
+}
+
+.book__option-date {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 36px 32px;
+    width: 300px;
+    height: 140px;
+}
+
+.book__option-name,
+.book__option-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-self: flex-start;
+}
+
+.book__input-name,
+.book__input-firstname {
+    width: 280px;
+    height: 52px;
+    box-sizing: border-box;
+}
+
+.book__input-tel,
+.book__input-mail {
+    width: 300px;
+    height: 52px;
+    box-sizing: border-box;
+}
+
+.book__information-label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.book__form-btn {
+    width: 1080px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.book__form-btn_button {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #6C0287;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 16px 50px;
+    border: none;
+    box-sizing: border-box;
+}
+
+

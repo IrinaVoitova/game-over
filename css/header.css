@@ -1,17 +1,26 @@
+.header {
+    max-width: 1180px;
+    margin: 0 auto;
+    position: relative;
+    height: 823px;
+    padding-bottom: 50px;
+}
+
 .header__title {
     font-weight: 900;
     font-size: 150px;
     line-height: 100%;
-    letter-spacing: -0.1em
+    letter-spacing: -0.1em;    
 }
 
-.header {
-    height: 823px;
+.header__image_boy {
+    position: absolute;
+    width: 675px;
+    height: 762px;
     background-image: url("../img2/header_image/vr_boy2.png");
     background-repeat: no-repeat;
-    background-position: 505px 61px;
-    background-size: auto 762px;
-    padding-bottom: 50px;
+    right: 0;
+    top: 61px;
 }
 
 .header__paragraph {
@@ -19,4 +28,73 @@
     line-height: 50px;
     margin: 0;
     padding-left: 100px;
+    padding-bottom: 30px;
+}
+
+.header__info {
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+    padding-bottom: 150px;
+}
+
+.header__info_block-1 {
+    width: 193px;
+    height: 209px;
+    text-align: center;
+}
+
+.header__paragraph_purple-1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 141px;
+    color: #CD06FF;
+}
+
+.header__paragraph_info {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+.header__info_block-2 {
+    width: 166px;
+    height: 174px;
+    text-align: center;
+}
+
+.header__paragraph_purple-2 {
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 106px;
+    font-variant: all-small-caps;
+    color: #CD06FF;
+}
+
+.header__button {
+    background-color: #6C0287;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    border: none;
+    padding: 25px 69px;
+}
+
+.header__arrow {
+    position: absolute;
+    height: 97px;
+    width: 97px;
+    left: 542px;
+    top: 636px;
+}
+
+.header__arrow-circle {
+    position: absolute;
+}
+
+.header__arrow-v {
+    position: relative;
+    left: 34.42px;
+    top: 29.76px;
 }

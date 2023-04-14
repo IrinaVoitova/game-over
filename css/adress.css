@@ -1,12 +1,15 @@
 .adress {
+    max-width: 1180px;
+    margin: 0 auto;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    padding-top: 50px;
+    padding: 50px 130px 10px 130px;
+    background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
 }
 
 .adress__title {
-    margin-bottom: 54px;
+    margin-bottom: 40px;
 }
 
 .adress__paragraph {
@@ -37,4 +40,33 @@
     background-repeat: no-repeat;
     background-position: left;
     background-size: 34.96px 32px;
+}
+
+.adress__block-info {
+    width: 450px;
+}
+
+.adress_block-map {
+    width: 680px;
+    height: 274px;
+}
+
+.adress__container {
+    width: 1180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 156px;
+}
+
+.footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__developers {
+    text-align: end;
 }

@@ -1,5 +1,7 @@
 .our-halls {
-    padding-bottom: 50px;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-bottom: 100px;
     padding-top: 50px;
 }
 
