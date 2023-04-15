@@ -50,3 +50,11 @@
     background: #640AA3;
     border: 1px solid #000000;
 }
+
+.header__link:hover {
+    color: #CD06FF;
+} 
+
+.header__link:focus {
+    outline: 1px solid #CD06FF;
+}
