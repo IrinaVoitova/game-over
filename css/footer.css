@@ -87,6 +87,20 @@
     display: inline-block;
 }
 
+.social__link:focus {
+    color: #EADEED;
+    outline: 1px solid #CD06FF;
+}
+
+.social__link:hover {
+    color: #EADEED;
+}
+
+.social__link:active {
+    color: #CD06FF;
+    outline: none;
+}
+
 .social__item:last-child {
     margin-right: 0;
 }

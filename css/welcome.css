@@ -79,10 +79,22 @@
     font-size: 26px;
     line-height: 30px;
     border: none;
-    padding: 25px 69px;
+    width: 374px;
+    height: 80px;
+}
+
+.welcome__button:hover,
+.welcome__button:focus {
+    background: #840AA3;
+    outline: none;
+}
+
+.welcome__button:active {
+    background: #640AA3;
 }
 
 .welcome__arrow {
+    background-image: url("../img2/welcome_image/button_realy.svg");
     position: absolute;
     height: 97px;
     width: 97px;
@@ -90,12 +102,14 @@
     bottom: 90px;
 }
 
-.welcome__arrow-circle {
-    position: absolute;
+.welcome__arrow:hover {
+    background-image: url("../img2/welcome_image/button_hover.svg");
 }
 
-.welcome__arrow-v {
-    position: relative;
-    left: 34.42px;
-    top: 29.76px;
+.welcome__arrow:focus {
+    outline: 1px solid #CD06FF;
+}
+
+.welcome__arrow:active {
+    background-image: url("../img2/welcome_image/button_active.svg");
 }
