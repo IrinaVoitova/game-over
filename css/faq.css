@@ -29,10 +29,12 @@
 
 .faq__item:nth-child(even):hover {
     background-image: url("../img2/faq_image/open-hover.svg");
+    transition-duration: .300s;
 }
 
 .faq__item:nth-child(even):active {
     background-image: url("../img2/faq_image/open-active.svg");
+    transition-duration: .200s;
 }
 
 .faq__item:nth-child(odd) {
@@ -44,10 +46,12 @@
 
 .faq__item:nth-child(odd):hover {
     background-image: url("../img2/faq_image/open-purple-hover.svg");
+    transition-duration: .300s;
 }
 
 .faq__item:nth-child(odd):active {
     background-image: url("../img2/faq_image/open-purple-activa.svg");
+    transition-duration: .200s;
 }
 
 .faq__item:not(:last-child) {

@@ -87,10 +87,12 @@
 .welcome__button:focus {
     background: #840AA3;
     outline: none;
+    transition-duration: .500s;
 }
 
 .welcome__button:active {
     background: #640AA3;
+    transition-duration: .500s;
 }
 
 .welcome__arrow {
@@ -104,12 +106,15 @@
 
 .welcome__arrow:hover {
     background-image: url("../img2/welcome_image/button_hover.svg");
+    transition-duration: .700s;
 }
 
 .welcome__arrow:focus {
     outline: 1px solid #CD06FF;
+    transition-duration: .500s;
 }
 
 .welcome__arrow:active {
     background-image: url("../img2/welcome_image/button_active.svg");
+    transition-duration: .500s;
 }

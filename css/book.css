@@ -36,7 +36,8 @@
     padding: 0;
 }
 
-.book__halls-input {
+.book__halls-label {
+    display: flex;
     font-weight: 700;
     font-size: 30px;
     line-height: 40px;
@@ -48,23 +49,50 @@
     width: 250px;
     height: 55px;
     box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
-.book__halls-input:hover {
+.book__halls-span {
+    display: flex;
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+    height: 55px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.book__halls-input {
+    appearance: none;
+}
+
+.book__halls-label input[type=radio]:checked + span{
+    color: #640AA3;
+    background: #eccbff;
+    transition-duration: .100s;
+}
+
+.book__halls-label:hover {
     background: #EADEED;
     border: 3px solid #640AA3;
+    transition-duration: .100s;
 }
 
-.book__halls-input:focus {
+.book__halls-label:focus {
     background: #FFFFFF;
     border: 3px solid #640AA3;
     outline: none;
+    transition-duration: .200s;
 }
 
-.book__halls-input:active {
+.book__halls-label:active {
     color: #FFFFFF;
     background: #6C0287;
     border: 3px solid #FFFFFF;
+    transition-duration: .100s;
 }
 
 .book__halls {
@@ -112,6 +140,7 @@
 
 .book__console-input:focus {
     outline: 1px solid #CD06FF;
+    transition-duration: .200s;
 }
 
 .book__console-label,
@@ -140,6 +169,7 @@
 .book__games-input:focus,
 .book__extra-input:focus {
     outline: 1px solid #CD06FF;
+    transition-duration: .200s;
 }
 
 .book__information {
@@ -165,6 +195,7 @@
 .book__information-input:focus {
     border: 2px solid #CD06FF;
     outline: none;
+    transition-duration: .100s;
 }
 
 .book__information-label {
@@ -172,7 +203,6 @@
     font-size: 14px;
     line-height: 16px;
 }
-
 
 ::-webkit-input-placeholder {
     font-weight: 400;
@@ -261,17 +291,20 @@
 .book__form-btn_button:hover {
     background: #EADEED;
     border: 3px solid #6C0287;
+    transition-duration: .100s;
 }
 
 .book__form-btn_button:focus {
     background: #FFFFFF;
     border: 3px solid #6C0287;
     outline: none;
+    transition-duration: .100s;
 }
 
 .book__form-btn_button:active {
     background: #EADEED;
     border: none;
+    transition-duration: .100s;
 }
 
 

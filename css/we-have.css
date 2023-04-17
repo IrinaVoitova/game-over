@@ -23,7 +23,15 @@
     width: 380px;
     height: 228px;
     background-size: cover;
+
+    
 }
+
+.we-have__item:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
 
 .we-have__item_vr {
     background-image: url("../img2/we-have_image/vr.jpg");
