@@ -31,7 +31,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
-    border: 3px solid #CD06FF;
+    border: 3px solid var(--main-color_light);
     border-radius: 10px;
     background-color: transparent;
     height: 55px;
@@ -41,24 +41,24 @@
 
 .header__button:hover,
 .header__button:focus {
-    background: #6C0287;
-    border: 3px solid #6C0287;
+    background: var(--main-color_medium);
+    border: 3px solid var(--main-color_medium);
     outline: none;
     transition-duration: .500s;
 }
 
 .header__button:active {
-    background: #640AA3;
+    background: var(--main-color_blueviolet);
     border: 1px solid #000000;
     transition-duration: .500s;
 }
 
 .header__link:hover {
-    color: #CD06FF;
+    color: var(--main-color_light);
     transition-duration: .500s;
 } 
 
 .header__link:focus {
-    outline: 1px solid #CD06FF;
+    outline: 1px solid var(--main-color_light);
     transition-duration: .200s;
 }

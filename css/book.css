@@ -1,7 +1,7 @@
 .book {
     padding: 80px 0;
     width: 1440px;
-    background-color: #440F51;
+    background-color: var(--main-color_dark);
     margin: 0 auto 50px auto;
 }
 
@@ -70,27 +70,27 @@
 }
 
 .book__halls-label input[type=radio]:checked + span{
-    color: #640AA3;
+    color: var(--main-color_blueviolet);
     background: #eccbff;
     transition-duration: .100s;
 }
 
 .book__halls-label:hover {
-    background: #EADEED;
-    border: 3px solid #640AA3;
+    background: var(--main-color_lightpurple);
+    border: 3px solid var(--main-color_blueviolet);
     transition-duration: .100s;
 }
 
 .book__halls-label:focus {
     background: #FFFFFF;
-    border: 3px solid #640AA3;
+    border: 3px solid var(--main-color_blueviolet);
     outline: none;
     transition-duration: .200s;
 }
 
 .book__halls-label:active {
     color: #FFFFFF;
-    background: #6C0287;
+    background: var(--main-color_medium);
     border: 3px solid #FFFFFF;
     transition-duration: .100s;
 }
@@ -139,7 +139,7 @@
 }
 
 .book__console-input:focus {
-    outline: 1px solid #CD06FF;
+    outline: 1px solid var(--main-color_light);
     transition-duration: .200s;
 }
 
@@ -168,7 +168,7 @@
 
 .book__games-input:focus,
 .book__extra-input:focus {
-    outline: 1px solid #CD06FF;
+    outline: 1px solid var(--main-color_light);
     transition-duration: .200s;
 }
 
@@ -193,7 +193,7 @@
 }
 
 .book__information-input:focus {
-    border: 2px solid #CD06FF;
+    border: 2px solid var(--main-color_light);
     outline: none;
     transition-duration: .100s;
 }
@@ -279,7 +279,7 @@
     font-size: 22px;
     line-height: 28px;
     text-transform: uppercase;
-    color: #6C0287;
+    color: var(--main-color_medium);
     height: 60px;
     width: 300px;
     background: #FFFFFF;
@@ -289,20 +289,20 @@
 }
 
 .book__form-btn_button:hover {
-    background: #EADEED;
-    border: 3px solid #6C0287;
+    background: var(--main-color_lightpurple);
+    border: 3px solid var(--main-color_medium);
     transition-duration: .100s;
 }
 
 .book__form-btn_button:focus {
     background: #FFFFFF;
-    border: 3px solid #6C0287;
+    border: 3px solid var(--main-color_medium);
     outline: none;
     transition-duration: .100s;
 }
 
 .book__form-btn_button:active {
-    background: #EADEED;
+    background: var(--main-color_lightpurple);
     border: none;
     transition-duration: .100s;
 }

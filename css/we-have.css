@@ -14,24 +14,33 @@
 }
 
 .we-have__list {
+    height: 565px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 40px 20px;
+    flex-wrap: nowrap;
+    gap: 20px;
 }
 
 .we-have__item {
     width: 380px;
     height: 228px;
     background-size: cover;
+}
 
-    
+.we-have__list_block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.we-have__list_block-2 {
+    justify-content: flex-end;
 }
 
 .we-have__item:hover {
     transform: scale(1.1);
     transition-duration: 1s;
 }
-
 
 .we-have__item_vr {
     background-image: url("../img2/we-have_image/vr.jpg");

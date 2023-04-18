@@ -49,7 +49,7 @@
     font-weight: 900;
     font-size: 100px;
     line-height: 141px;
-    color: #CD06FF;
+    color: var(--main-color_light);
 }
 
 .welcome__paragraph_info {
@@ -69,11 +69,11 @@
     font-size: 75px;
     line-height: 106px;
     font-variant: all-small-caps;
-    color: #CD06FF;
+    color: var(--main-color_light);
 }
 
 .welcome__button {
-    background-color: #6C0287;
+    background-color: var(--main-color_medium);
     border-radius: 10px;
     font-weight: 700;
     font-size: 26px;
@@ -91,7 +91,7 @@
 }
 
 .welcome__button:active {
-    background: #640AA3;
+    background: var(--main-color_medium);
     transition-duration: .500s;
 }
 
@@ -110,7 +110,7 @@
 }
 
 .welcome__arrow:focus {
-    outline: 1px solid #CD06FF;
+    outline: 1px solid var(--main-color_light);
     transition-duration: .500s;
 }
 
