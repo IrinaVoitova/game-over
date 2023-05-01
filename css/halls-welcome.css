@@ -12,19 +12,19 @@
 }
 
 .welcome__vibes80_banner {
-    background-image: url('/img2/our-halls_image/80vibes/banner.png');
+    background-image: url('../img2/our-halls_image/80vibes/banner.png');
 }
 
 .welcome__starwars_banner {
-    background-image: url('/img2/our-halls_image/starwars/banner.png');
+    background-image: url('../img2/our-halls_image/starwars/banner.png');
 }
 
 .welcome__wildwest_banner {
-    background-image: url('/img2/our-halls_image/wildwest/banner.png');
+    background-image: url('../img2/our-halls_image/wildwest/banner.png');
 }
 
 .welcome__neonstyle_banner {
-    background-image: url('/img2/our-halls_image/neonstyle/banner.png');
+    background-image: url('../img2/our-halls_image/neonstyle/banner.png');
 }
 
 .welcome__halls_p {

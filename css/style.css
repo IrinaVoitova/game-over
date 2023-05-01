@@ -22,10 +22,10 @@
 
 @import url("var.css");
 
-@import url('halls/halls-header.css');
+@import url('halls-header.css');
 
-@import url('halls/halls-welcome.css');
+@import url('halls-welcome.css');
 
-@import url('halls/halls-stuffing.css');
+@import url('halls-stuffing.css');
 
-@import url('halls/halls-other-rooms.css');
+@import url('halls-other-rooms.css');

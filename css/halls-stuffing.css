@@ -27,19 +27,19 @@
 }
 
 .stuffing__vibes80_img {
-    background-image: url('/img2/our-halls_image/80vibes/80vibes.png');
+    background-image: url('../img2/our-halls_image/80vibes/80vibes.png');
 }
 
 .stuffing__starwars_img {
-    background-image: url('/img2/our-halls_image/starwars/starwars.png');
+    background-image: url('../img2/our-halls_image/starwars/starwars.png');
 }
 
 .stuffing__wildwest_img {
-    background-image: url('/img2/our-halls_image/wildwest/wildwest.png');
+    background-image: url('../img2/our-halls_image/wildwest/wildwest.png');
 }
 
 .stuffing__neonstyle_img {
-    background-image: url('/img2/our-halls_image/neonstyle/neonstyle.png');
+    background-image: url('../img2/our-halls_image/neonstyle/neonstyle.png');
 }
 
 .stuffing__halls_text {
