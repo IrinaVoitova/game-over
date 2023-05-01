@@ -8,18 +8,25 @@
     margin-bottom: 40px;
 }
 
+.our-halls__item {
+    max-width: 580px;
+    height: 349px;
+}
+
 .our-halls__list {
+    max-width: 1180px;
     display: grid;
     grid-template: repeat(2, 1fr)/repeat(2, 1fr);
     gap: 20px;
 }
 
 .our-halls__link {
+    width: 100%;
+    height: 349px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     display: inline-block;
-    width: 580px;
-    height: 349px;
 }
 
 .our-halls__link-vibes80 {

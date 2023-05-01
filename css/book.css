@@ -1,6 +1,6 @@
 .book {
     padding: 80px 0;
-    width: 1440px;
+    max-width: 1440px;
     background-color: var(--main-color_dark);
     margin: 0 auto 50px auto;
 }
@@ -46,7 +46,7 @@
     background: #FFFFFF;
     border-radius: 8px;
     border: none;
-    width: 250px;
+    width: 100%;
     height: 55px;
     box-sizing: border-box;
     align-items: center;
@@ -58,7 +58,7 @@
     display: flex;
     border-radius: 8px;
     border: none;
-    width: 250px;
+    width: 100%;
     height: 55px;
     box-sizing: border-box;
     align-items: center;
@@ -105,6 +105,8 @@
     gap: 60px;
     justify-content: center;
     box-sizing: border-box;
+    max-width: 1180px;
+    margin: 0 auto;
 }
 
 .book__legend_entertainment {
@@ -151,12 +153,12 @@
 }
 
 .book__console-label {
-    width: 280px;
+    max-width: 280px;
 }
 
 .book__games-label,
 .book__extra-label {
-    width: 300px;
+    max-width: 300px;
 }
 
 .book__games-input,
@@ -173,17 +175,20 @@
 }
 
 .book__information {
-    padding: 0 0 0 0;
-    margin: 0 0 40px 0;
+    max-width: 980px;
+    padding: 0;
+    margin: 0 auto;
 }
 
 .book__information-option {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 162px;
     align-items: flex-end;
     gap: 50px;
+    margin-bottom: 40px;
 }
 
 .book__information-input {
@@ -237,7 +242,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 36px 32px;
-    width: 300px;
+    max-width: 300px;
     height: 140px;
 }
 
@@ -247,6 +252,14 @@
     flex-direction: column;
     gap: 14px;
     align-self: flex-start;
+}
+
+.book__option-name {
+    max-width: 280px;
+}
+
+.book__option-contact {
+    max-width: 300px;
 }
 
 .book__input-name,
@@ -268,8 +281,9 @@
     margin-bottom: 6px;
 }
 
+
 .book__form-btn {
-    width: 1210px;
+    max-width: 1210px;
     display: flex;
     justify-content: flex-end;
 }
@@ -281,7 +295,7 @@
     text-transform: uppercase;
     color: var(--main-color_medium);
     height: 60px;
-    width: 300px;
+    max-width: 300px;
     background: #FFFFFF;
     border-radius: 10px;
     border: none;

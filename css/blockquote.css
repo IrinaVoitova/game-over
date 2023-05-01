@@ -1,5 +1,5 @@
 .blockquote {
-    width: 500px;
+    max-width: 500px;
     height: 325px;
     margin: 0;
 }
@@ -9,7 +9,7 @@
     line-height: 50px;
     text-transform: uppercase;
     margin: 0;
-    width: 500px;
+    max-width: 500px;
     height: 202px;
     margin-bottom: 39px;
     white-space: pre-wrap;
@@ -27,7 +27,7 @@
     display: block;
     font-size: 20px;
     line-height: 28px;
-    width: 505px;
+    max-width: 505px;
     height: 84px;
     padding-left: 225.72px;
     margin: 0;

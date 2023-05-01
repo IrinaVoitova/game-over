@@ -13,7 +13,7 @@
 }
 
 .header__logo {
-    width: 120px;
+    max-width: 120px;
     height: 66px;
 }
 
@@ -73,7 +73,7 @@
     }
     
     .header__logo {
-        width: 87px;
+        max-width: 87px;
         height: 55px;
     }
     
