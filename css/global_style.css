@@ -2,6 +2,7 @@ html {
     width: 100vw;
     background-color: #1B1A1B;
     box-sizing: border-box;
+    scroll-behavior: smooth
 }
 
 * {
@@ -16,7 +17,6 @@ body {
     font-weight: 400;
     font-style: normal;
     min-width: 320px;
-    min-height: 100vh;
 }
 
 svg {

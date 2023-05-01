@@ -8,34 +8,50 @@
     margin-bottom: 40px;
 }
 
-.our-halls__item {
+.our-halls__list {
+    display: grid;
+    grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+    gap: 20px;
+}
+
+.our-halls__link {
     background-size: cover;
-    list-style: none;
     background-repeat: no-repeat;
-    margin-bottom: 20px;
     display: inline-block;
     width: 580px;
     height: 349px;
 }
 
-.our-halls__item:not(:nth-child(2n)) {
-    margin-right: 15px;
+.our-halls__link-vibes80 {
+    background-image: url("../img2/our-halls_image/80vibes_home.jpg");
 }
 
-.our-halls__item-vibes80 {
-    background-image: url("../img2/our-halls_image/80vibes.jpg");
+.our-halls__link-starwars {
+    background-image: url("../img2/our-halls_image/star_wars_home.jpg");
 }
 
-.our-halls__item-starwars {
-    background-image: url("../img2/our-halls_image/star_wars.jpg");
-}
-
-.our-halls__item-wilswest {
-    background-image: url("../img2/our-halls_image/wild_west.jpg");
+.our-halls__link-wilswest {
+    background-image: url("../img2/our-halls_image/wild_west_home.jpg");
     margin-bottom: 0;
 }
 
-.our-halls__item-neonstyle {
-    background-image: url("../img2/our-halls_image/neon.jpg");
+.our-halls__link-neonstyle {
+    background-image: url("../img2/our-halls_image/neon_home.jpg");
     margin-bottom: 0;
+}
+
+.our-halls__link:hover {
+    transform: scale(0.95);
+    transition-duration: .7s;
+    box-shadow: 0 0 15px var(--main-color_light);
+}
+
+.our-halls__link:focus {
+    outline: 1px solid var(--main-color_light);
+    transition-duration: .2s;
+}
+
+.our-halls__link:active {
+    outline: 2px solid white;
+    transition-duration: .1s;
 }

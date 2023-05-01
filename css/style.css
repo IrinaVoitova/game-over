@@ -21,3 +21,11 @@
 @import url("we-have.css");
 
 @import url("var.css");
+
+@import url('halls/halls-header.css');
+
+@import url('halls/halls-welcome.css');
+
+@import url('halls/halls-stuffing.css');
+
+@import url('halls/halls-other-rooms.css');

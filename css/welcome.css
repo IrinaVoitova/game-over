@@ -21,7 +21,7 @@
     background-image: url("../img2/welcome_image/vr_boy2.png");
     background-repeat: no-repeat;
     bottom: 0;
-    left: 535px;
+    right: 30px;
 }
 
 .welcome__paragraph {
@@ -117,4 +117,138 @@
 .welcome__arrow:active {
     background-image: url("../img2/welcome_image/button_active.svg");
     transition-duration: .500s;
+}
+
+@media (max-width: 1124px) {
+    .welcome {
+        max-width: 964px;
+        height: 583px;
+        margin-bottom: 83px;
+    }
+    
+    .welcome__title {
+        font-size: 120px;
+        margin-bottom: 20px;
+    }
+    
+    .welcome__image_boy {
+        width: 453px;
+        height: 520px;
+        background-size: contain;
+
+    }
+    
+    .welcome__paragraph {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .welcome__info {
+        margin-bottom: 80px;
+    }
+    
+    .welcome__info_block-1 {
+        width: 168px;
+        height: 173px;
+    }
+    
+    .welcome__paragraph_purple-1 {
+        font-size: 80px;
+        line-height: 113px;
+    }
+    
+    .welcome__paragraph_info {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    
+    .welcome__info_block-2 {
+        width: 140px;
+        height: 145px;
+    }
+    
+    .welcome__paragraph_purple-2 {
+        font-size: 60px;
+        line-height: 85px;
+    }
+    
+    .welcome__button {
+        font-size: 22px;
+        width: 296px;
+        height: 64px;
+    }
+
+    .welcome__arrow {
+        height: 67px;
+        width: 67px;
+        left: 448px;
+        bottom: 46px;
+        background-size: cover;
+    }
+}
+
+
+@media (max-width: 840px) {
+    .welcome {
+        max-width: 748px;
+        height: 537px;
+        margin-bottom: 80px;
+    }
+    
+    .welcome__title {
+        font-size: 86px;
+    }
+    
+    .welcome__image_boy {
+        width: 409px;
+        height: 479px;
+    }
+    
+    .welcome__paragraph {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 50px;
+    }
+    
+    .welcome__info {
+        gap: 30px;
+        margin-bottom: 100px;
+    }
+    
+    .welcome__info_block-1 {
+        width: 103px;
+        height: 107px;
+    }
+    
+    .welcome__paragraph_purple-1 {
+        font-size: 50px;
+        line-height: 71px;
+    }
+    
+    .welcome__paragraph_info {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .welcome__info_block-2 {
+        width: 89px;
+        height: 92px;
+    }
+    
+    .welcome__paragraph_purple-2 {
+        font-size: 40px;
+        line-height: 56px;
+    }
+    
+    .welcome__button {
+        border-radius: 4px;
+        font-size: 16px;
+        line-height: 24px;
+        width: 214px;
+        height: 46px;
+    }
+
+    .welcome__arrow {
+        display: none;
+    }
 }

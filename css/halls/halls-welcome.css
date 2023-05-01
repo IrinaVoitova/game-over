@@ -1,0 +1,99 @@
+.welcome__halls {
+    max-width: 1440px;
+    margin: 0 auto 100px auto;
+}
+
+.welcome__halls_banner {
+    height: 750px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto 100px auto;
+}
+
+.welcome__vibes80_banner {
+    background-image: url('/img2/our-halls_image/80vibes/banner.png');
+}
+
+.welcome__starwars_banner {
+    background-image: url('/img2/our-halls_image/starwars/banner.png');
+}
+
+.welcome__wildwest_banner {
+    background-image: url('/img2/our-halls_image/wildwest/banner.png');
+}
+
+.welcome__neonstyle_banner {
+    background-image: url('/img2/our-halls_image/neonstyle/banner.png');
+}
+
+.welcome__halls_p {
+    width: 1000px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+@media (max-width: 1124px) {
+    .welcome__halls {
+        max-width: 1024px;
+        margin: 0 auto 70px auto;
+    }
+    
+    .welcome__halls_banner {
+        height: 534px;
+        margin-bottom: 70px;
+    }
+
+    .welcome__halls_p {
+        width: 800px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 840px) {
+    .welcome__halls {
+        max-width: 768px;
+        margin: 0 auto 60px auto;
+    }
+    
+    .welcome__halls_banner {
+        height: 402px;
+        margin-bottom: 60px;
+    }
+
+    .welcome__halls_p {
+        width: 688px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 700px) {
+    .welcome__halls_banner {
+        height: 365px;
+        margin-bottom: 60px;
+    }
+
+    .welcome__halls_p {
+        width: 460px;
+    }
+}
+
+@media (max-width: 545px) {
+    .welcome__halls {
+        max-width: 320px;
+        margin: 0 auto 30px auto;
+    }
+    
+    .welcome__halls_banner {
+        height: 168px;
+        margin-bottom: 30px;
+    }
+
+    .welcome__halls_p {
+        width: 280px;
+    }
+}

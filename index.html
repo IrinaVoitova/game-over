@@ -8,6 +8,11 @@
 </head>
 <body>
     <header class="header">
+        <svg class="header__burger" width="54" height="29" viewBox="0 0 54 29" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <rect width="54" height="5" rx="2" fill="#6C0287"/>
+            <rect y="12" width="54" height="5" rx="2">
+            <rect y="24" width="31" height="5" rx="2">
+        </svg>
         <img class="header__logo" src="img2/header_image/logo.svg" alt="Логотип Go">
         <ul class="header__list">
             <li class="header__item"><a class="header__link" href="#our-halls">Залы</a></li>
@@ -33,9 +38,9 @@
             </div>
         </div>
         <button class="welcome__button button">Забронировать</button>
-        <a class="welcome__arrow" href="#"></a>
+        <a class="welcome__arrow" href="#we-have"></a>
     </section>
-    <section class="we-have">
+    <section class="we-have" id="we-have">
         <h2 class="we-have__title">У нас есть всё для классного
 отдыха с друзьями!</h2>
         <ul class="we-have__list">
@@ -56,10 +61,10 @@
     <section class="our-halls" id="our-halls">
         <h2 class="our-halls__title">Наши залы</h2>
         <ul class="our-halls__list">
-            <li class="our-halls__item our-halls__item-vibes80"></li>
-            <li class="our-halls__item our-halls__item-starwars"></li>
-            <li class="our-halls__item our-halls__item-wilswest"></li>
-            <li class="our-halls__item our-halls__item-neonstyle"></li>
+            <li class="our-halls__item our-halls__item-vibes80"><a class="our-halls__link our-halls__link-vibes80" href="vibes80.html"></a></li>
+            <li class="our-halls__item our-halls__item-starwars"><a class="our-halls__link our-halls__link-starwars" href="starwars.html"></a></li>
+            <li class="our-halls__item our-halls__item-wilswest"><a class="our-halls__link our-halls__link-wilswest" href="wildwest.html"></a></li>
+            <li class="our-halls__item our-halls__item-neonstyle"><a class="our-halls__link our-halls__link-neonstyle" href="neonstyle.html"></a></li>
         </ul>
     </section>
     <section class="book" id="book">
@@ -99,7 +104,7 @@
                         <legend class="book__legend_entertainment book__legend_extra">Дополнительно:</legend>
                         <div class="book__option book__option-extra">
                             <label class="book__extra-label"><input class="book__extra-input book__input-karaoke" type="checkbox" name="additionally" value="Караоке">Караоке</label>
-                            <label class="book__extra-label"><input class="book__extra-input book__input-vr" type="checkbox" name="additionally" id="VR">VR</label>
+                            <label class="book__extra-label"><input class="book__extra-input book__input-vr" type="checkbox" name="additionally" value="VR">VR</label>
                         </div>
                     </fieldset>
                 </div>
@@ -167,27 +172,29 @@
     </section>
     <section class="reviews" id="reviews">
         <h2 class="reviews__title">Отзывы посетителей</h2>
-            <div class="reviews__container">
+        <ul class="reviews__order">
+            <li class="reviews__container">
                 <figure class="reviews__container-image">
                     <img class="reviews__image reviews__image-1" src="img2/review_image/1.jpg" alt="Фото Макс Самойлов">
                     <figcaption class="reviews__discription">Макс Самойлов</figcaption>
                 </figure>
                 <p class="reviews__paragraph">Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда еще я не был в таком полном игровом погружении. Сервис на высоте!</p>
-            </div>
-            <div class="reviews__container">
+            </li>
+            <li class="reviews__container">
                 <figure class="reviews__container-image">
                     <img class="reviews__image reviews__image-2" src="img2/review_image/2.jpg" alt="Фото Оксана Григорьева">
                     <figcaption class="reviews__discription">Оксана Григорьева</figcaption>
                 </figure>
                 <p class="reviews__paragraph">Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше нет подобных заведений</p>
-            </div>
-            <div class="reviews__container">
+            </li>
+            <li class="reviews__container">
                 <figure class="reviews__container-image">
                     <img class="reviews__image reviews__image-3" src="img2/review_image/3.jpg" alt="фото Никита Ященко">
                     <figcaption class="reviews__discription">Никита Ященко</figcaption>
                 </figure>
                 <p class="reviews__paragraph">Немного подвисала игра в VR очках, а так все норм. Коутое оформление комнаты в стиле звездных воин, попал в атмосферу космоса</p>
-            </div>
+            </li>
+        </ul>
     </section>
     <section class="faq">
         <h2 class="faq__title">Частые вопросы</h2>
@@ -243,7 +250,9 @@
                     </ul>
                 </div>
             </div>
-            <img class="adress__block-map" src="./img2/footer_image/map.png" alt="Карта проезда">
+            <div class="adress__block-img">
+            <!-- <img class="adress__block-map" src="./img2/footer_image/map.png" alt="Карта проезда"> -->
+            </div>
         </div>
         <div class="copyright">
             <p class="copyright__p">© Game Over, 2022</p>
