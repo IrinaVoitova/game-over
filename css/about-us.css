@@ -45,8 +45,138 @@
     margin-bottom: 48px;
 }
 
-.about-us__container {
+.about-us__container-content {
     max-width: 1180px;
-    display: flex;
-    gap: 80px;
+    display: grid;
+    grid-template: 222px 325px /600px 500px;
+    gap: 48px 80px;
 }
+
+
+@media (max-width: 1124px) {
+    .about-us {
+        max-width: 964px;
+        margin: 0 auto 70px auto;
+    }
+    
+    .about-us__title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 26px;
+    }
+    
+    .about-us__paragraph {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        white-space: normal;
+    }
+    
+    .about-us__image {
+        max-width: 420.46px;
+        height: 417.66px;
+    }
+
+    .about-us__info {
+        max-width: 444px;
+    }
+    
+    .about-us__info-text {
+        max-width: 444px;
+        height: 195px;
+        margin-bottom: 26px;
+    }
+
+    .about-us__container-content {
+        max-width: 904px;
+        grid-template: 195px 217px / 420.46px 444px;
+        gap: 26px 39.54px;
+    }
+}
+
+
+@media (max-width: 840px) {
+    .about-us {
+        max-width: 748px;
+        margin: 0 auto 60px auto;
+    }
+    
+    .about-us__title {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 30px;
+    }
+    
+    .about-us__paragraph {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 22px;
+    }
+    
+    .about-us__image {
+        max-width: 382px;
+        height: 380px;
+    }
+    
+    .about-us__info {
+        max-width: 278px;
+        align-items: center;
+    }
+    
+    .about-us__info-text {
+        max-width: 278px;
+        height: 247px;
+        margin-bottom: 0;
+    }
+
+    .about-us__container-content {
+        max-width: 688px;
+        grid-template: 380px 184px / 382px 278px;
+        gap: 30px 28px;
+    }
+}
+
+@media (max-width: 545px) {
+    .about-us {
+        max-width: 320px;
+        margin: 0 auto 30px auto;
+        padding: 0 20px;
+    }
+    
+    .about-us__title {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+    
+    .about-us__paragraph {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 16px;
+    }
+    
+    .about-us__image {
+        max-width: 280px;
+        height: 280px;
+        grid-area: 2/1/3/2;
+    }
+    
+    .about-us__info {
+        max-width: 280px;
+    }
+    
+    .about-us__info-text {
+        max-width: 280px;
+        height: 127px;
+        grid-area: 1/1/2/2;
+    }
+
+    .about-us__container-content {
+        max-width: 280px;
+        grid-template: 127px 280px 143px  / 280px;
+        gap: 15px;
+    }
+}
+
+
+

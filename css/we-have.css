@@ -15,9 +15,9 @@
 
 .we-have__list {
     height: 565px;
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 20px;
+    display: grid;
+    grid-template: 70px 158px 40px 30px 40px 158px 69px / repeat(3, 1fr);
+    column-gap: 40px;
 }
 
 .we-have__item {
@@ -27,18 +27,6 @@
     background-position: center;
 }
 
-.we-have__list_block {
-    width: 380px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    flex-direction: column;
-}
-
-.we-have__list_block-2 {
-    justify-content: flex-end;
-}
-
 .we-have__item:hover {
     transform: scale(1.1);
     transition-duration: 1s;
@@ -46,24 +34,152 @@
 
 .we-have__item_vr {
     background-image: url("../img2/we-have_image/vr.jpg");
+    grid-area: 1/1/3/2;
 }
 
 .we-have__item_audio {
     background-image: url("../img2/we-have_image/audio.jpg");
+    grid-area: 2/2/4/3;
 }
 
 .we-have__item_micro {
     background-image: url("../img2/we-have_image/micro.jpg");
+    grid-area: 1/3/3/4;
 }
 
 .we-have__item_game {
     background-image: url("../img2/we-have_image/game.jpg");
+    grid-area: 4/1/7/2;
 }
 
 .we-have__item_cinema {
     background-image: url("../img2/we-have_image/netflix.jpg");
+    grid-area: 6/2/8/3;
 }
 
 .we-have__item_playstation {
     background-image: url("../img2/we-have_image/sony.jpg");
+    grid-area: 4/3/7/4;
 }
+
+
+@media (max-width: 1124px) {
+        .we-have {
+            max-width: 964px;
+            height: 542px;
+            margin: 0 auto 70px auto;
+            padding: 0 30px;
+        }
+        
+        .we-have__title {
+            font-size: 30px;
+            line-height: 40px;
+            margin-bottom: 36px;
+        }
+
+        .we-have__list {
+            height: 426px;
+            display: grid;
+            grid-template: 53px 119px 30px 23px 30px 119px 52px / repeat(3, 1fr);
+            column-gap: 22px;
+        }
+        
+        .we-have__item {
+            max-width: 287px;
+            height: 172px;
+        }
+    }
+
+
+    @media (max-width: 840px) {
+        .we-have {
+            max-width: 748px;
+            height: 742px;
+            margin: 0 auto 60px auto;
+            }
+            
+        .we-have__title {
+            font-size: 24px;
+            line-height: 36px;
+            margin-bottom: 30px;
+        }
+
+        .we-have__list {
+            height: 640px;
+            grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+            gap: 20px;
+        }
+            
+        .we-have__item {
+            max-width: 334px;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+            
+        .we-have__item_vr {
+            grid-area: 1/1/2/2;
+        }
+            
+        .we-have__item_audio {
+            grid-area: 1/2/2/3;
+        }
+            
+        .we-have__item_micro {
+            grid-area: 2/1/3/2;
+            }
+            
+        .we-have__item_game {
+            grid-area: 2/2/3/3;
+            }
+            
+        .we-have__item_cinema {
+            grid-area: 3/1/4/2;
+            }
+            
+        .we-have__item_playstation {
+            grid-area: 3/2/4/3;
+            }
+        }
+
+
+        @media (max-width: 700px) {
+        .we-have {
+            max-width: 636px;
+            height: 652px;
+            margin: 0 auto 40px auto;
+            }
+        .we-have__item {
+            max-width: 284px;
+            height: 170px;
+        }
+
+        .we-have__list {
+            height: 544px;
+        }
+    }
+
+        @media (max-width: 545px) {
+            .we-have {
+                max-width: 320px;
+                height: 296px;
+                margin: 0 auto 30px auto;
+                padding: 0 20px;
+            }
+            
+            .we-have__title {
+                font-size: 14px;
+                line-height: 18px;
+                margin-bottom: 15px;
+            }
+            .we-have__list {
+                height: 245px;
+                display: grid;
+                gap: 10px;
+            }
+            
+            .we-have__item {
+                max-width: 135px;
+                height: 75px;
+            }
+        }

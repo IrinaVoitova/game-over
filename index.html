@@ -2,6 +2,8 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Over</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
@@ -9,9 +11,9 @@
 <body>
     <header class="header">
         <svg class="header__burger" width="54" height="29" viewBox="0 0 54 29" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <rect width="54" height="5" rx="2" fill="#6C0287"/>
-            <rect y="12" width="54" height="5" rx="2">
-            <rect y="24" width="31" height="5" rx="2">
+            <rect width="54" height="5" rx="2"></rect>
+            <rect y="12" width="54" height="5" rx="2"></rect>
+            <rect y="24" width="31" height="5" rx="2"></rect>
         </svg>
         <img class="header__logo" src="img2/header_image/logo.svg" alt="Логотип Go">
         <ul class="header__list">
@@ -44,18 +46,12 @@
         <h2 class="we-have__title">У нас есть всё для классного
 отдыха с друзьями!</h2>
         <ul class="we-have__list">
-            <div class="we-have__list_block we-have__list_block-1">
                 <li class="we-have__item we-have__item_vr"></li>
                 <li class="we-have__item we-have__item_game"></li>
-            </div>
-            <div class="we-have__list_block we-have__list_block-2">
                 <li class="we-have__item we-have__item_audio"></li>
                 <li class="we-have__item we-have__item_cinema"></li>
-            </div>
-            <div class="we-have__list_block we-have__list_block-3">
                 <li class="we-have__item we-have__item_micro"></li>
                 <li class="we-have__item we-have__item_playstation"></li>
-            </div>
         </ul>
     </section>
     <section class="our-halls" id="our-halls">
@@ -113,8 +109,11 @@
                 <legend class="book__legend book__legend_information">Выберите дату и время</legend>
                 <div class="book__information-option">
                     <div class="book__option-date">
-                        <input class="book__information-input book__input-date" type="text" name="date" id="date" placeholder="Дата" onfocus="(this.type='date')" required>
-                        <input class="book__information-input book__input-time" type="text" name="time" id="time" placeholder="Время" onfocus="(this.type='time')" required>
+                        <div class="book__information-data" >
+                            <input class="book__information-input book__input-date" type="text" name="date" id="date" placeholder="Дата" onfocus="(this.type='date')" required>
+                            <input class="book__information-input book__input-time" type="text" name="time" id="time" placeholder="Время" onfocus="(this.type='time')" required>
+                        </div>
+                        
                         <input class="book__information-input book__input-persons" type="number" name="persons" id="persons" placeholder="Сколько человек" required>
                     </div>
                     <div class="book__option-name">
@@ -146,9 +145,8 @@
     </section>
     <section class="about-us" id="about-us">
         <h2 class="about-us__title">о нас</h2>
-        <div class="about-us__container">
-            <div class="about-us__image about-us__container-content"></div>
             <div class="about-us__info about-us__container-content">
+                <div class="about-us__image"></div>
                 <div class="about-us__info-text">
                     <p class="about-us__paragraph">Для наших гостей мы создали концептуально новое
 игровое пространство виртуальной реальности
@@ -159,13 +157,8 @@
 со всего мира.</p>
                 </div>
                 <blockquote class="blockquote">
-                    <p class="blockquote__paragraph"><span class="blockquote__quotes">“</span> Game over &mdash; 
-    это место
-    незабываемых
-    впечатлений <span class="blockquote__quotes">„</span></p>
-                    <p class="blockquote__cite">Аркадий Абакшин,
-создатель игровой
-территории GAME OVER</p>
+                    <p class="blockquote__paragraph"><span class="blockquote__quotes">“</span> Game over &mdash; это место незабываемых впечатлений <span class="blockquote__quotes">„</span></p>
+                    <p class="blockquote__cite">Аркадий Абакшин, создатель игровой территории GAME OVER</p>
                 </blockquote>
             </div>
         </div>
@@ -174,24 +167,24 @@
         <h2 class="reviews__title">Отзывы посетителей</h2>
         <ul class="reviews__order">
             <li class="reviews__container">
-                <figure class="reviews__container-image">
+                <div class="reviews__container-image">
                     <img class="reviews__image reviews__image-1" src="img2/review_image/1.jpg" alt="Фото Макс Самойлов">
-                    <figcaption class="reviews__discription">Макс Самойлов</figcaption>
-                </figure>
+                </div>
+                <p class="reviews__discription">Макс Самойлов</p>
                 <p class="reviews__paragraph">Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда еще я не был в таком полном игровом погружении. Сервис на высоте!</p>
             </li>
             <li class="reviews__container">
-                <figure class="reviews__container-image">
+                <div class="reviews__container-image">
                     <img class="reviews__image reviews__image-2" src="img2/review_image/2.jpg" alt="Фото Оксана Григорьева">
-                    <figcaption class="reviews__discription">Оксана Григорьева</figcaption>
-                </figure>
+                </div>
+                <p class="reviews__discription">Оксана Григорьева</p>
                 <p class="reviews__paragraph">Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше нет подобных заведений</p>
             </li>
             <li class="reviews__container">
-                <figure class="reviews__container-image">
+                <div class="reviews__container-image">
                     <img class="reviews__image reviews__image-3" src="img2/review_image/3.jpg" alt="фото Никита Ященко">
-                    <figcaption class="reviews__discription">Никита Ященко</figcaption>
-                </figure>
+                </div>
+                <p class="reviews__discription">Никита Ященко</p>
                 <p class="reviews__paragraph">Немного подвисала игра в VR очках, а так все норм. Коутое оформление комнаты в стиле звездных воин, попал в атмосферу космоса</p>
             </li>
         </ul>
@@ -203,7 +196,7 @@
             <li class="faq__item">Могут ли мне вернуть деньги за бронь?</li>
             <li class="faq__item">Какая комната самая популярная?</li>
             <li class="faq__item">Как получить VIP карту?</li>
-            <li class="faq__item">Какая комната самая популярная?</li>
+            <li class="faq__item faq__item-5">Какая комната самая популярная?</li>
         </ul>
     </section>
     <footer class="footer">
@@ -251,7 +244,6 @@
                 </div>
             </div>
             <div class="adress__block-img">
-            <!-- <img class="adress__block-map" src="./img2/footer_image/map.png" alt="Карта проезда"> -->
             </div>
         </div>
         <div class="copyright">

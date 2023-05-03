@@ -106,17 +106,20 @@
     }
     
     .header__burger {
+        color: var(--main-color_medium);
         display: inline-block;
         width: 54px;
         height: 29px;
     }
 
     .header__burger:hover {
-        background-color: var(--main-color_light);
+        color: var(--main-color_light);
+
     }
 
     .header__burger:active {
-        background-color: var(--main-color_blueviolet);
+        color: var(--main-color_blueviolet);
+
     }
 
     .header__burger:focus {
@@ -127,8 +130,9 @@
 
 @media (max-width: 545px) {
     .header {
-        max-width: 340px;
+        max-width: 320px;
         margin: 20px auto 20px auto;
+        padding: 0 20px;
     }
 
     .header__burger {

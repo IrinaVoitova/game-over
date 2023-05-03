@@ -1,5 +1,5 @@
 .book {
-    padding: 80px 0;
+    padding: 80px 30px;
     max-width: 1440px;
     background-color: var(--main-color_dark);
     margin: 0 auto 50px auto;
@@ -126,12 +126,16 @@
     line-height: 25px;
 }
 
+.book__information-data {
+    display: flex;
+    gap: 32px;
+}
+
 .book__fieldset-entertainment {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 100px;
-    padding-left: 100px;
 }
 
 .book__console-input {
@@ -218,7 +222,7 @@
 
 .book__input-date,
 .book__input-time {
-    width: 134px;
+    max-width: 134px;
     height: 52px;
     border: none;
     padding: 0;
@@ -226,7 +230,8 @@
 }
 
 .book__input-persons {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     height: 52px;
 }
 
@@ -255,23 +260,25 @@
 }
 
 .book__option-name {
-    max-width: 280px;
+    width: 280px;
 }
 
 .book__option-contact {
-    max-width: 300px;
+    width: 300px;
 }
 
 .book__input-name,
 .book__input-firstname {
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: 52px;
     box-sizing: border-box;
 }
 
 .book__input-tel,
 .book__input-mail {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     height: 52px;
     box-sizing: border-box;
 }
@@ -295,7 +302,7 @@
     text-transform: uppercase;
     color: var(--main-color_medium);
     height: 60px;
-    max-width: 300px;
+    width: 300px;
     background: #FFFFFF;
     border-radius: 10px;
     border: none;
@@ -322,3 +329,371 @@
 }
 
 
+@media (max-width: 1124px) {
+    .book {
+        padding: 60px 30px;
+        max-width: 1024px;
+        margin: 0 auto 70px auto;
+    }
+    
+    .book__title {
+        margin-bottom: 25px;
+        font-size: 30px;
+        line-height:40px;
+    }
+    
+    .book__legend {
+        margin: 0 auto 26px auto;
+    }
+    
+    .book__halls-label {
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 180px;
+        border-radius: 6px;
+        height: 44px;
+    }
+    
+    .book__halls-span {
+        height: 44px;
+    }
+    
+    .book__halls_option {
+        gap: 61px;
+        max-width: 904px;
+    }
+    
+    .book__fieldset-entertainment {
+        gap: 0px;
+        justify-content: space-between;
+        padding-left: 0px;
+        max-width: 904px;
+        margin: 0 auto;
+    }
+
+    .book__extra-label {
+        max-width: 255px;
+    }
+
+    .book__information {
+        max-width: 904px;
+    }
+    
+    .book__information-option {
+        margin-bottom: 50px;
+    }
+    
+    .book__option-name {
+        max-width: 251px;
+    }
+    
+    .book__option-contact {
+        max-width: 254px;
+    }
+    
+    .book__input-name,
+    .book__input-firstname {
+        width: 251px;
+        height: 52px;
+    }
+    
+    .book__input-tel,
+    .book__input-mail {
+        width: 254px;
+        height: 52px;
+    }
+
+    .book__form-btn {
+        max-width: 964px;
+    }
+    
+    .book__form-btn_button {
+        font-size: 18px;
+        line-height: 24px;
+        height: 50px;
+        width: 254px;
+    }
+}
+
+
+@media (max-width: 840px) {
+    .book {
+        padding: 50px 30px;
+        max-width: 768px;
+        margin: 0 auto 60px auto;
+    }
+    
+    .book__title {
+        margin-bottom: 40px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    .book__legend {
+        margin: 0 auto 30px auto;
+    }
+    
+    .book__entertainment {
+        margin: 0px 0 50px 0;
+    }
+    
+    .book__halls-label {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 150px;
+        height: 38px;
+    }
+    
+    .book__halls-span {
+        height: 38px;
+    }
+
+    .book__halls {
+        margin-bottom: 50px;
+    }
+    
+    .book__halls_option {
+        gap: 29px;
+        max-width: 688px;
+    }
+    
+    .book__legend_entertainment {
+        margin-bottom: 24px;
+    }
+    
+    .book__fieldset-entertainment {
+        flex-wrap: wrap;
+        gap: 66px;
+        justify-content: start;
+        max-width: 688px;
+    }
+    
+    .book__console-input {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+    
+    .book__games-input,
+    .book__extra-input {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+
+    .book__console {
+        width: 301px;
+    }
+
+    .book__information {
+        max-width: 688px;
+    }
+    
+    .book__information-option {
+        height: 256px;
+        gap: 42px;
+        margin-bottom: 48px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .book__input-persons {
+        width: 300px;
+    }
+    
+    .book__option-date {
+        flex-wrap: nowrap;
+        gap: 106px;
+        max-width: 688px;
+        height: 52px;
+    }
+
+    .book__information-data {
+        gap: 14px;
+    }
+    
+    .book__option-name {
+        max-width: 280px;
+        width: 100%;
+    }
+    
+    .book__option-contact {
+        max-width: 300px;
+        width: 100%;
+    }
+    
+    .book__input-name,
+    .book__input-firstname {
+        max-width: 280px;
+        width: 100%;
+    }
+    
+    .book__input-tel,
+    .book__input-mail {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .book__form-btn {
+        max-width: 728px;
+    }
+    
+    .book__form-btn_button {
+        font-size: 22px;
+        line-height: 28px;
+        height: 60px;
+        max-width: 300px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 545px) {
+    .book {
+        padding: 30px 20px;
+        max-width: 320px;
+        margin: 0 auto 30px auto;
+    }
+    
+    .book__title {
+        margin-bottom: 13px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .book__legend {
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0 auto 15px auto;
+    }
+    
+    .book__entertainment {
+        margin: 0px 0 30px 0;
+    }
+    
+    .book__halls-label {
+        font-size: 14px;
+        line-height: 18px;
+        max-width: 130px;
+        height: 30px;
+    }
+    
+    .book__halls-span {
+        border-radius: 4px;
+        width: 100%;
+        height: 30px;
+    }
+
+    .book__halls {
+        margin-bottom: 30px;
+    }
+    
+    .book__halls_option {
+        gap: 14px 20px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        width: 280px;
+    }
+    
+    .book__legend_entertainment {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+    
+    .book__option {
+        gap: 15px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .book__fieldset-entertainment {
+        gap: 25px;
+        max-width: 280px;
+    }
+    
+    .book__console-input {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    
+    .book__games-input,
+    .book__extra-input {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+
+    .book__console,
+    .book__games,
+    .book__extra {
+        width: 280px;
+    }
+
+    .book__information {
+        max-width: 280px;
+    }
+    
+    .book__information-option {
+        flex-direction: column;
+        height: 514px;
+        gap: 35px;
+        margin-bottom: 35px;
+    }
+    
+    ::-webkit-input-placeholder {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .book__input-persons {
+        width: 280px;
+    }
+    
+    .book__option-date {
+        flex-wrap: wrap;
+        gap: 15px;
+        max-width: 280px;
+        height: 119px;
+    }
+
+    .book__information-data {
+        gap: 12px;
+    }
+    
+    .book__option-name {
+        max-width: 280px;
+        width: 100%;
+    }
+    
+    .book__option-contact {
+        max-width: 280px;
+        width: 100%;
+    }
+    
+    .book__input-name,
+    .book__input-firstname {
+        max-width: 280px;
+        width: 100%;
+    }
+    
+    .book__input-tel,
+    .book__input-mail {
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .book__form-btn {
+        max-width: 280px;
+    }
+    
+    .book__form-btn_button {
+        font-size: 18px;
+        line-height: 26px;
+        height: 60px;
+        max-width: 280px;
+        width: 100%;
+        border-radius: 4px;
+    }
+}
