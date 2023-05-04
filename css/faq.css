@@ -1,6 +1,10 @@
 .faq {
     max-width: 1240px;
-    margin: 0 auto 45px auto;
+    margin: 0 auto;
+    padding: 50px 0 45px 0;
+}
+
+.faq__container {
     padding: 0 30px;
 }
 
@@ -63,9 +67,10 @@
 
 
 @media (max-width: 1124px) {
+
     .faq {
         max-width: 964px;
-        margin: 0 auto 58px auto;
+        padding: 35px 0 58px 0;
     }
     
     .faq__title {
@@ -114,7 +119,7 @@
 @media (max-width: 840px) {
     .faq {
         max-width: 748px;
-        margin: 0 auto 60px auto;
+        padding: 30px 0 60px 0;
     }
     
     .faq__title {
@@ -154,8 +159,11 @@
 @media (max-width: 545px) {
     .faq {
         max-width: 320px;
+        padding: 15px 0 23px 0;
+    }
+    
+    .faq__container {
         padding: 0 20px;
-        margin: 0 auto 23px auto;
     }
     
     .faq__title {

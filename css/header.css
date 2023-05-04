@@ -1,7 +1,7 @@
 .header {
     max-width: 1240px;
-    margin: 30px auto 50px auto;
-    padding: 0 30px;
+    margin: 0 auto;
+    padding: 30px 30px 25px 30px;
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
@@ -68,8 +68,8 @@
 
 @media (max-width: 1124px) {
     .header {
+        padding: 30px 30px 15px 30px;
         max-width: 964px;
-        margin: 30px auto;
     }
     
     .header__logo {
@@ -98,7 +98,7 @@
 @media (max-width: 840px) {
     .header {
         max-width: 748px;
-        margin: 32px auto 30px auto;
+        padding: 32px 30px 15px 30px;
     }
 
     .header__list {
@@ -119,20 +119,19 @@
 
     .header__burger:active {
         color: var(--main-color_blueviolet);
-
     }
 
     .header__burger:focus {
         border: 1px solid var(--main-color_blueviolet);
         outline: none;
-        transition-duration: .100s;}
+        transition-duration: .100s;
+    }
 }
 
 @media (max-width: 545px) {
     .header {
         max-width: 320px;
-        margin: 20px auto 20px auto;
-        padding: 0 20px;
+        padding: 20px 20px 10px 20px;
     }
 
     .header__burger {

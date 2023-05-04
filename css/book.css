@@ -1,8 +1,11 @@
 .book {
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.book__container {
     padding: 80px 30px;
-    max-width: 1440px;
     background-color: var(--main-color_dark);
-    margin: 0 auto 50px auto;
 }
 
 .book__title {
@@ -46,6 +49,7 @@
     background: #FFFFFF;
     border-radius: 8px;
     border: none;
+    max-width: 250px;
     width: 100%;
     height: 55px;
     box-sizing: border-box;
@@ -260,11 +264,13 @@
 }
 
 .book__option-name {
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
 }
 
 .book__option-contact {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
 }
 
 .book__input-name,
@@ -302,11 +308,13 @@
     text-transform: uppercase;
     color: var(--main-color_medium);
     height: 60px;
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     background: #FFFFFF;
     border-radius: 10px;
     border: none;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .book__form-btn_button:hover {
@@ -330,10 +338,13 @@
 
 
 @media (max-width: 1124px) {
+
     .book {
+        padding: 35px 0;
+    }
+    
+    .book__container {
         padding: 60px 30px;
-        max-width: 1024px;
-        margin: 0 auto 70px auto;
     }
     
     .book__title {
@@ -393,13 +404,15 @@
     
     .book__input-name,
     .book__input-firstname {
-        width: 251px;
+        max-width: 251px;
+        width: 100%;
         height: 52px;
     }
     
     .book__input-tel,
     .book__input-mail {
-        width: 254px;
+        max-width: 254px;
+        width: 100%;
         height: 52px;
     }
 
@@ -411,16 +424,20 @@
         font-size: 18px;
         line-height: 24px;
         height: 50px;
-        width: 254px;
+        max-width: 254px;
+        width: 100%;
     }
 }
 
 
 @media (max-width: 840px) {
+
     .book {
+        padding: 30px 0;
+    }
+    
+    .book__container {
         padding: 50px 30px;
-        max-width: 768px;
-        margin: 0 auto 60px auto;
     }
     
     .book__title {
@@ -482,7 +499,8 @@
     }
 
     .book__console {
-        width: 301px;
+        max-width: 301px;
+        width: 100%;
     }
 
     .book__information {
@@ -498,13 +516,15 @@
     }
     
     .book__input-persons {
-        width: 300px;
+        max-width: 300px;
+        width: 100%;
     }
     
     .book__option-date {
         flex-wrap: nowrap;
         gap: 106px;
         max-width: 688px;
+        width: 100%;
         height: 52px;
     }
 
@@ -547,12 +567,94 @@
     }
 }
 
+@media (max-width: 700px) {
+
+    .book__title {
+        margin-bottom: 30px;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    
+    .book__halls-label {
+        font-size: 14px;
+        line-height: 18px;
+        max-width: 150px;
+        height: 36px;
+    }
+    
+    .book__halls-span {
+        height: 36px;
+    }
+
+    .book__halls_option {
+        gap: 25px;
+        max-width: 688px;
+    }
+    
+    .book__legend_entertainment {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .book__fieldset-entertainment {
+        gap: 40px;
+        max-width: 688px;
+    }
+    
+    .book__console-input {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .book__games-input,
+    .book__extra-input {
+        width: 30px;
+        height: 30px;
+    }
+
+    .book__console {
+        max-width: 260px;
+    }
+    
+    .book__input-persons {
+        max-width: 250px;
+    }
+    
+    .book__option-date {
+        gap: 30px;
+    }
+    
+    .book__option-name {
+        max-width: 210px;
+    }
+    
+    .book__option-contact {
+        max-width: 230px;
+    }
+    
+    .book__input-name,
+    .book__input-firstname {
+        max-width: 210px;
+    }
+    
+    .book__input-tel,
+    .book__input-mail {
+        max-width: 230px;
+    }
+    
+    .book__form-btn_button {
+        max-width: 230px;
+    }
+}
 
 @media (max-width: 545px) {
+
     .book {
+        padding: 15px 0;
+    }
+    
+    .book__container {
         padding: 30px 20px;
-        max-width: 320px;
-        margin: 0 auto 30px auto;
     }
     
     .book__title {
@@ -648,7 +750,8 @@
     }
     
     .book__input-persons {
-        width: 280px;
+        max-width: 280px;
+        width: 100%;
     }
     
     .book__option-date {

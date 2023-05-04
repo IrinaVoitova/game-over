@@ -1,10 +1,13 @@
 .welcome {
     max-width: 1240px;
     margin: 0 auto;
+    padding: 25px 0 50px 0;
+}
+
+.welcome__container {
     padding: 0 30px;
     position: relative;
     height: 823px;
-    margin-bottom: 100px;
 }
 
 .welcome__title {
@@ -122,9 +125,14 @@
 @media (max-width: 1124px) {
     .welcome {
         max-width: 964px;
-        height: 583px;
-        margin-bottom: 83px;
+        padding: 15px 0 41px 0;
     }
+    
+    .welcome__container {
+        padding: 0 30px;
+        height: 583px;
+    }
+
     
     .welcome__title {
         font-size: 120px;
@@ -135,7 +143,6 @@
         width: 453px;
         height: 520px;
         background-size: contain;
-
     }
     
     .welcome__paragraph {
@@ -191,10 +198,14 @@
 @media (max-width: 840px) {
     .welcome {
         max-width: 748px;
-        height: 537px;
-        margin-bottom: 80px;
+        padding: 15px 0 40px 0;
     }
     
+    .welcome__container {
+        padding: 0 30px;
+        height: 537px;
+    }
+
     .welcome__title {
         font-size: 86px;
     }
@@ -255,11 +266,10 @@
 
 
 @media (max-width: 700px) {
-
-    .welcome {
+    .welcome__container {
         height: 370px;
-        margin-bottom: 40px;
     }
+
     .welcome__image_boy {
         width: 285px;
         height: 329px;
@@ -285,12 +295,15 @@
 
 
 @media (max-width: 545px) {
+
     .welcome {
         max-width: 320px;
-        height: 204px;
-        margin-bottom: 46px;
+        padding: 10px 0 23px 0;
+    }
+    
+    .welcome__container {
         padding: 0 20px;
-
+        height: 204px;
     }
     
     .welcome__title {

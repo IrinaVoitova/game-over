@@ -1,6 +1,10 @@
 .our-halls {
     max-width: 1240px;
-    margin: 0 auto 100px auto;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.our-halls__container {
     padding: 0 30px;
 }
 
@@ -67,7 +71,7 @@
 @media (max-width: 1124px) {
     .our-halls {
         max-width: 964px;
-        margin: 0 auto 70px auto;
+        padding: 35px 0;
     }
     
     .our-halls__title {
@@ -94,7 +98,7 @@
     @media (max-width: 840px) {
     .our-halls {
         max-width: 748px;
-        margin: 0 auto 62px auto;
+        padding: 30px 0 31px 0;
     }
         
     .our-halls__title {
@@ -120,7 +124,10 @@
     @media (max-width: 545px) {
     .our-halls {
         max-width: 320px;
-        margin: 0 auto 30px auto;
+        padding: 15px 0;
+    }
+        
+    .our-halls__container {
         padding: 0 20px;
     }
         

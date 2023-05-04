@@ -1,11 +1,18 @@
 .footer {
-    max-width: 1440px;
     margin: 0 auto;
+    padding: 55px 0 21px 0;
+    background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+}
+
+.footer__container {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    padding: 50px 30px 10px 30px;
-    background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+    padding: 0 30px;
+}
+
+.adress__block-768 {
+    display: none;
 }
 
 .footer__title {
@@ -131,8 +138,7 @@
 @media (max-width: 1124px) {
 
     .footer {
-        max-width: 964px;
-        padding: 12px 30px 19px 30px;
+        padding: 12px 0 19px 0;
     }
     
     .footer__title {
@@ -198,10 +204,9 @@
 @media (max-width: 840px) {
 
     .footer {
-        max-width: 748px;
-        padding: 10px 30px 18px 30px;
+        padding: 10px 0 18px 0;
     }
-    
+
     .footer__title {
         margin-bottom: 30px;
         font-size: 24px;
@@ -213,16 +218,40 @@
     }
     
     .adress__contact {
+        display: flex;
+        flex-direction: column;
         margin-bottom: 0px;
+        gap: 27px;
     }
     
     .adress__contact-tel {
-        margin-bottom: 27px;
+        margin: 0;
+        align-self: center;
     }
-    
-    .adress__icon {
+
+    .adress__paragraph-1024,
+    .adress__icon-1024 {
+        display: none;
+}
+
+.adress__paragraph-768 {
+    display: inline;
+    background-image: url("../img2/footer_image/location.svg");
+    margin: 0;
+}
+
+.adress__block-768 {
+    display: inline;
+    text-align: center;
+}
+
+    .adress__icon,
+    .adress__icon-768 {
         padding-left: 40px;
         background-size: 26px 26px;
+        background-position: left;
+        background-repeat: no-repeat;
+
     }
     
     .adress__block-info {
@@ -230,6 +259,7 @@
         flex-direction: column;
         gap: 27px;
         max-width: 380px;
+        align-items: center;
     }
 
     .adress__block-img {
@@ -252,25 +282,33 @@
 @media (max-width: 545px) {
 
     .footer {
-        max-width: 320px;
-        font-size: 14px;
-        line-height: 18px;
-        padding: 7px 20px 24px 20px;
+        padding: 7px 0 24px 0;
     }
     
+    .footer__container {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0 20px;
+    }
+
     .footer__title {
         margin-bottom: 15px;
         font-size: 14px;
         line-height: 18px;
     }
     
-    .adress__contact-tel {
-        margin-bottom: 10px;
+    .adress__contact {
+        gap: 10px;
     }
     
     .adress__icon {
         padding-left: 25px;
         background-size: 20px 20px;
+    }
+
+    .adress__icon-768 {
+        padding-left: 25px;
+        background-size: 18px 20px;
     }
     
     .adress__block-info {

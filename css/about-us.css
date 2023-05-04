@@ -1,7 +1,11 @@
 .about-us {
     max-width: 1240px;
-    margin: 0 auto 100px auto;
-    padding: 0 30px 0 30px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.about-us__container {
+    padding: 0 30px;
 }
 
 .about-us__title {
@@ -12,7 +16,8 @@
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 22px;
-    margin-top: 0;padding: 0;
+    margin-top: 0;
+    padding: 0;
     white-space: pre-wrap;
 }
 
@@ -22,7 +27,6 @@
 
 .about-us__image {
     max-width: 600px;
-    width: 100%;
     height: 596px;
     background-image: url("../img2/about-us_image/photos.png");
     background-size: cover;
@@ -48,7 +52,7 @@
 .about-us__container-content {
     max-width: 1180px;
     display: grid;
-    grid-template: 222px 325px /600px 500px;
+    grid-template: 222px 325px / minmax(300px, 600px) minmax(300px, 500px);
     gap: 48px 80px;
 }
 
@@ -56,7 +60,7 @@
 @media (max-width: 1124px) {
     .about-us {
         max-width: 964px;
-        margin: 0 auto 70px auto;
+        padding: 35px 0;
     }
     
     .about-us__title {
@@ -89,16 +93,17 @@
 
     .about-us__container-content {
         max-width: 904px;
-        grid-template: 195px 217px / 420.46px 444px;
+        grid-template: 195px 217px / minmax(300px, 420.46px) minmax(300px, 444px);
         gap: 26px 39.54px;
     }
 }
 
 
 @media (max-width: 840px) {
+
     .about-us {
         max-width: 748px;
-        margin: 0 auto 60px auto;
+        padding: 30px 0;
     }
     
     .about-us__title {
@@ -131,7 +136,7 @@
 
     .about-us__container-content {
         max-width: 688px;
-        grid-template: 380px 184px / 382px 278px;
+        grid-template: 380px 184px / minmax(220px, 382px) minmax(200px, 278px);
         gap: 30px 28px;
     }
 }
@@ -139,7 +144,10 @@
 @media (max-width: 545px) {
     .about-us {
         max-width: 320px;
-        margin: 0 auto 30px auto;
+        padding: 15px 0;
+    }
+    
+    .about-us__container {
         padding: 0 20px;
     }
     

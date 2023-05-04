@@ -1,8 +1,10 @@
 .blockquote {
     max-width: 500px;
+    width: 100%;
     height: 325px;
     margin: 0;
     grid-area: 2/2/3/3;
+    position: relative;
 }
 
 .blockquote__paragraph {
@@ -11,6 +13,7 @@
     text-transform: uppercase;
     margin: 0;
     max-width: 450px;
+    width: 100%;
     height: 202px;
     margin-bottom: 39px;
 }
@@ -27,14 +30,19 @@
     display: block;
     font-size: 20px;
     line-height: 28px;
-    max-width: 490px;
+    width: 100%;
+    white-space: pre-wrap;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    max-width: 389px;
     height: 84px;
-    padding-left: 220.72px;
+    padding-left: 103.72px;
     margin: 0;
     background-image: url('../img2/blockquote_image/ava.png');
     background-repeat: no-repeat;
     background-size: 80px 80px;
-    background-position: 109.72px 0;
+    background-position: 0;
 }
 
 
@@ -60,11 +68,10 @@
     .blockquote__cite {
         font-size: 18px;
         line-height: 26px;
-        max-width: 430px;
+        max-width: 330px;
         height: 78px;
-        padding-left: 219px;
+        padding-left: 105px;
         background-size: 70px 70px;
-        background-position: 114px 0;
     }
 }
 
@@ -90,10 +97,10 @@
     }
     
     .blockquote__cite {
-        max-width: 675px;
+        max-width: 320px;
         height: 78px;
-        padding-left: 463px;
-        background-position: 368px 0;
+        padding-left: 95px;
+        background-position: 0;
     }
 }
 
